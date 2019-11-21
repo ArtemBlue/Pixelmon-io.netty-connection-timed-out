@@ -70,9 +70,8 @@ ipconfig /renew
 - [Sign-Up Link](https://account.protonvpn.com/signup)
 - [Download Link](https://protonvpn.com/download/)
 
-# Credits
+# Credits - CG Pixelmon
 ```
-CG Pixelmon
 Buumee (Troubleshooting Guide)
 Hazz (Technic Launcher Guide)
 ```
