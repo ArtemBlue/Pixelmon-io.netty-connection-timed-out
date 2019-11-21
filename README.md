@@ -1,4 +1,10 @@
 # Troubleshooting Guide - io.netty Connection Timed Out
+##### Try using the Technic Launcher
+#
+- [Technic Launcher](https://www.technicpack.net/download/)
+- [Technic Installation Guide](http://tutorial.mc-complex.com/)
+
+#
 ##### Run Powershell as Administrator
 #
 1) Close out all instances of Minecraft and make sure it is not running. 
@@ -60,7 +66,9 @@ ipconfig /renew
 1) Try to connect to the Pixelmon Server again
 2) If you get the same issue again, it's most likely an ISP issue and you will have to wait until your internet service provider fixes it over time.
 3) Try testing the issue with someone else's internet
-4) An alternative fix is to use a VPN, as it will normally fix this issue. Try using a Free VPN with Proton [Sign-Up Link](https://account.protonvpn.com/signup) & [Download Link](https://protonvpn.com/download/) if you don't have one
+4) An alternative fix is to use a VPN, as it will normally fix this issue. Try using a Free VPN with Proton if you don't have one.
+- [Sign-Up Link](https://account.protonvpn.com/signup)
+- [Download Link](https://protonvpn.com/download/)
 
 # Credits
 ### Buumee - CG Pixelmon
