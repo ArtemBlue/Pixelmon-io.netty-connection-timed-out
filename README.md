@@ -71,5 +71,8 @@ ipconfig /renew
 - [Download Link](https://protonvpn.com/download/)
 
 # Credits
-### Buumee - CG Pixelmon
-
+```
+CG Pixelmon
+Buumee (Troubleshooting Guide)
+Hazz (Technic Launcher Guide)
+```
