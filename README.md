@@ -1,4 +1,4 @@
-# Troubleshooting Guide - io.netty Connection Timed Out
+# Troubleshooting Guide - io.netty Connection Timed Out (Windows OS)
 ##### Try using the Technic Launcher
 #
 - [Technic Launcher](https://www.technicpack.net/download/)
