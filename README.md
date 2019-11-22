@@ -4,6 +4,13 @@
 - [Technic Launcher](https://www.technicpack.net/download/)
 - [Technic Installation Guide](http://tutorial.mc-complex.com/)
 
+# 
+##### Try Restarting Router
+#
+1) Power off router 
+2) Wait 5 minutes
+3) Power it back on
+
 #
 ##### Run Powershell as Administrator
 #
