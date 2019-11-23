@@ -77,6 +77,19 @@ ipconfig /renew
 - [Sign-Up Link](https://account.protonvpn.com/signup)
 - [Download Link](https://protonvpn.com/download/)
 
+#
+##### Send Logs
+#
+1) If everything fails, copy the following commands and enter the commands one at a time below;
+```
+ping pixel.mc-complex.com | Out-File $home\desktop\logs.txt
+Tracert pixel.mc-complex.com | Out-File -Append $home\desktop\logs.txt
+Get-NetFirewallProfile | select Name,Enabled,AllowInboundRules, AllowLocalFirewallRules, AllowUserApps, AllowUserPorts  | Out-File -Append $home\desktop\logs.txt
+Get-NetFirewallRule | where {$_.DisplayName -like "*Java*"}  | select DisplayName, Enabled, Profile  | Out-File -Append $home\desktop\logs.txt
+Get-DnsClientServerAddress  | Out-File -Append $home\desktop\logs.txt
+```
+2) Copy the new "logs.txt" file that was created on your desktop and send it to the Discord Ticket.
+
 # Credits - CG Pixelmon
 ```
 Buumee (Troubleshooting Guide)
