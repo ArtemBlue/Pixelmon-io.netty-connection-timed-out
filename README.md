@@ -72,10 +72,6 @@ ipconfig /renew
 #
 1) Try to connect to the Pixelmon Server again
 2) If you get the same issue again, it's most likely an ISP issue and you will have to wait until your internet service provider fixes it over time.
-3) Try testing the issue with someone else's internet
-4) An alternative fix is to use a VPN, as it will normally fix this issue. Try using a Free VPN with Proton if you don't have one.
-- [Sign-Up Link](https://account.protonvpn.com/signup)
-- [Download Link](https://protonvpn.com/download/)
 
 #
 ##### Send Logs
@@ -89,6 +85,14 @@ Get-NetFirewallRule | where {$_.DisplayName -like "*Java*"}  | select DisplayNam
 Get-DnsClientServerAddress  | Out-File -Append $home\desktop\logs.txt
 ```
 2) Copy the new "logs.txt" file that was created on your desktop and send it to the Discord Ticket.
+
+#
+##### Alternatives
+#
+1) Try testing the issue with someone else's internet
+2) An alternative fix is to use a VPN, as it will normally fix this issue. Try using a Free VPN with Proton if you don't have one.
+- [Sign-Up Link](https://account.protonvpn.com/signup)
+- [Download Link](https://protonvpn.com/download/)
 
 # Credits - CG Pixelmon
 ```
