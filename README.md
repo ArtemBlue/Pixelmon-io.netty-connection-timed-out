@@ -1,18 +1,18 @@
 # Troubleshooting Guide - io.netty Connection Timed Out (Windows OS)
-##### Try using the Technic Launcher
+##### Step 1) Try installing/re-installing the Technic Launcher 
 #
 - [Technic Launcher](https://www.technicpack.net/download/)
 - [Technic Installation Guide](http://tutorial.mc-complex.com/)
 
 # 
-##### Step 1) Try Restarting Router
+##### Step 2) Try Restarting Router
 #
 1) Power off router 
 2) Wait 5 minutes
 3) Power it back on
 
 #
-##### Run Powershell as Administrator
+##### Step 3) Run Powershell as Administrator
 #
 1) Close out all instances of Minecraft and make sure it is not running. 
 2) Click Start -> Type "Powershell" -> Right-Click "Windows Powershell" -> Click "Run as Administrator"
@@ -29,7 +29,7 @@
 </details>
 
 #
-##### Enter the Following Commands
+##### Step 4) Enter the Following Commands
 #
 
 **Warning:** Do not run "Get-NetAdapter | where..." Command if you run Virtual Machines or have a SOHO Network dependant on utilizing an organization's default DNS Server.
@@ -68,13 +68,13 @@ ipconfig /renew
 ```
 
 #
-##### Attempt to connect to the Server
+##### Step 5) Attempt to connect to the Server
 #
 1) Try to connect to the Pixelmon Server again
 2) If you get the same issue again, it's most likely an ISP issue and you will have to wait until your internet service provider fixes it over time.
 
 #
-##### Send Logs
+##### Step 6) Send Logs
 #
 1) If everything fails, copy the following commands and enter the commands one at a time below;
 ```
@@ -87,7 +87,7 @@ Get-DnsClientServerAddress  | Out-File -Append $home\desktop\logs.txt
 2) Copy the new "logs.txt" file that was created on your desktop and send it to the Discord Ticket.
 
 #
-##### Alternatives
+##### Step 7) Alternatives
 #
 1) Try testing the issue with someone else's internet
 2) An alternative fix is to use a VPN, as it will normally fix this issue. Try using a Free VPN with Proton if you don't have one.
