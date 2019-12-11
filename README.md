@@ -5,7 +5,7 @@
 - [Technic Installation Guide](http://tutorial.mc-complex.com/)
 
 # 
-##### Try Restarting Router
+##### Step 1) Try Restarting Router
 #
 1) Power off router 
 2) Wait 5 minutes
