@@ -90,7 +90,9 @@ Get-DnsClientServerAddress  | Out-File -Append $home\desktop\logs.txt
 ##### Step 7) Alternatives
 #
 1) Try testing the issue with someone else's internet
-2) An alternative fix is to use a VPN.
+2) An alternative fix is to use a VPN, as it will normally fix this issue. Try using a Free VPN with Proton if you don't have one.
+- [Sign-Up Link](https://account.protonvpn.com/signup)
+- [Download Link](https://protonvpn.com/download/)
 
 # Credits - CG Pixelmon
 ```
